@@ -90,34 +90,40 @@ body {
   padding: 8px 20px;
 }
 
-/* Detail Blog */
-.blog-detail {
-  max-width: 900px;
-  margin: 30px auto;
-  padding: 20px;
-  background: #fff;
+/* Styling khusus untuk halaman blog detail */
+.container img {
+  display: block;           /* bikin gambar jadi block */
+  margin: 0 auto 90px auto; /* center gambar + jarak bawah */
+  width: 35%;               /* gambar lebih besar */
+  height: auto;
   border-radius: 12px;
-  box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.2); /* biar elegan */
 }
 
-.blog-detail img {
-  display: block;
-  margin: 0 auto 20px auto;
-  max-width: 100%;
-  border-radius: 12px;
-}
-
-.blog-detail h2 {
+.container h2 {
   text-align: center;
-  margin-bottom: 15px;
   font-weight: bold;
+  margin-bottom: 25px;
 }
 
-.blog-detail p {
+.container p {
+  max-width: 800px;   /* biar teks ga kepanjangan full layar */
+  margin: 15px auto;  /* center teks */
   text-align: justify;
-  line-height: 1.6;
   font-size: 1.1rem;
+  line-height: 1.8;
 }
+
+.container a.btn {
+  display: block;
+  width: fit-content;
+  margin: 20px auto;  /* tombol ke tengah */
+  border-radius: 25px;
+  padding: 10px 25px;
+}
+
+
+
 
 /* Footer */
 footer {
