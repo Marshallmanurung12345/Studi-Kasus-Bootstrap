@@ -1,38 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tentang Saya</title>
-    <link rel="stylesheet" href="assets/vendor/bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <link
+      rel="stylesheet"
+      href="assets/vendor/bootstrap-5.3.8-dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="custom.css" />
   </head>
   <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
       <div class="container">
         <a class="navbar-brand" href="index.html">My Blog</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-            <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="about.html">About</a>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <!-- About Content -->
-    <div class="container mt-5 text-center">
-      <h2>Tentang Saya</h2>
-      <img src="https://picsum.photos/200/200" class="rounded-circle my-4" alt="Foto Profil">
-      <p>Halo! Saya adalah seorang web developer yang sedang belajar menggunakan Bootstrap untuk membangun website modern, cepat, dan responsif.</p>
-      <p>Saya suka mempelajari teknologi baru, menulis blog, dan membagikan pengetahuan saya kepada orang lain.</p>
-    </div>
+    <!-- isi aboutnya -->
+    <section class="about-section py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center card-about p-4 p-md-5">
+            <h2 class="mb-4">Tentang Saya</h2>
+            <img
+              src="assets/imut.jpg"
+              class="rounded-circle profile-img mb-4"
+              alt="Foto Profil"
+            />
+            <div
+              class="personal-info text-start mx-auto mb-4"
+              style="max-width: 400px"
+            >
+              <ul class="list-unstyled">
+                <li><strong>Nama:</strong> Marshall Manurung</li>
+                <li><strong>Pekerjaan:</strong> Mahasiswa & Penulis Blog</li>
+                <li><strong>Lokasi:</strong> Laguboti, Sumatera Utara</li>
+                <li>
+                  <strong>Media Sosial:</strong>
+                  <a href="https://www.instagram.com/marshall_real01?igsh=MXEzcTAwZXFrNjFkdg==" class="text-decoration-none">Instagram</a> ||
+                   <a href="https://x.com/gooptn2023?s=11&t=0k0xyNgQCgfmnjDK-cfIWw">Twitter</a>
+                </li>
+              </ul>
+            </div>
+            <p> Selamat datang di blog saya! Saya adalah seorang penulis yang memiliki kegemaran menonton film. Karya-karya tulisan di blog ini lahir dari keinginan saya untuk mengisi waktu luang dengan sesuatu yang produktif dan menyenangkan. Setiap film yang saya tonton bukan hanya hiburan, tetapi juga sumber inspirasi dan bahan refleksi. Lewat blog ini, saya ingin membagikan pengalaman menonton saya dalam bentuk review dan opini, mengajak pembaca untuk melihat sisi unik dari setiap cerita, karakter, dan pesan yang disampaikan. Tujuan saya adalah menciptakan tulisan yang tidak hanya informatif, tetapi juga menghibur dan memberi perspektif baru bagi siapa pun yang membaca.</p>
+              
+            <p>
+              Saya senang bisa berbagi pengalaman ini, dan saya harap setiap tulisan di blog ini bisa menginspirasi serta membuat pembaca menikmati dunia film bersama saya
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <footer class="text-white text-center p-3 mt-5 bg-dark">
-      <p>© 2025 My Blog. All rights reserved.</p>
+    <!-- Footer -->
+    <footer class="text-white text-center p-3 mt-auto bg-dark">
+      <p class="mb-0">© 2025 My Blog. All rights reserved.</p>
     </footer>
+
+    <script src="assets/vendor/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
